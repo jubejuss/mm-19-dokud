@@ -17,4 +17,7 @@ footer: Copyright © 2019 - Peter Mbanugo, aga ma ise ka siin juba olen palju ki
 ---
 # Privetik
 ## Siia, ma luban, kirjutan veel kolm sõna
-Siin need on
+Siin need on  
+## Lisalingid, kust asja edasi harutama hakata:
+- Portfolio: [https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/](https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/)
+- VuePress + Forestry + Netlify: [https://vuepress-portfolio.netlify.app/](https://vuepress-portfolio.netlify.app/)

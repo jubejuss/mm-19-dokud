@@ -24,3 +24,36 @@ Vuepress soovitab kasutada Yarni.
 6. **PÄRIS NII LIHTNE SEE SIISKI POLE!!!**  Eraldi lehed võiks hoida eraldi folderites. README.md on nagu HTML-is index, ehk, et see, mida vikimisi loetakse.
 ## Sidebar
 7. Sidebar – selleks tuleks teha folder, mille sisu seal kuvatakse. Antud juhul `juhend`. Selle sisse tehakse omakorda failid, mis tuleb config.js-is kirjutada sidebar'i alla. Antud juhul `README.md` ja `hakkame-pihta.md`. Nende sees olevad pealkirjad ehk H-d korjab Vuepress ise kokku ja paneb küljeribale.
+## Deployment
+8. Tarvis on määrata config.js failis korrektne "base". Antud näite puhul on selleks Github'i aadressi lõpp `/vuepress-starter/` (vaata üles aadressiribale). Seega config.js'i `base: '/vuepress-starter/'`. Seejärel on vaja kirjutada `deploy.sh` fail, milles on kirjas kõik käsud, et saata valmis kompileeritud staatilised failid githubi.  [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)  
+        
+        #!/usr/bin/env sh
+
+        # katkestab kui on vead
+        set -e
+
+        # ehitab staatilised failid
+        yarn run docs:build
+
+        # liigub staatiliste failide folderisse
+        cd docs/.vuepress/dist
+
+        # Siin saaks oma domeeni alla saata
+        # echo 'www.example.com' > CNAME
+        
+        # initsialiseerib giti ja kommitib
+        git init
+        git add -A
+        git commit -m 'deploy'
+        
+        # kui kasutad sellist github pages skeemi, 
+        siis eemalda trellid ja asenda oma parameetritega 
+        https://<USERNAME>.github.io
+        # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+        
+        # kui kasutad sellist github pages skeemi, 
+        siis eemalda trellid ja asenda oma parameetritega 
+        https://<USERNAME>.github.io/<REPO>
+        # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+
+        cd -
