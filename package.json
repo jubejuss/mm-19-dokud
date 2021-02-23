@@ -1,0 +1,16 @@
+{
+  "name": "jusspress",
+  "version": "1.0.0",
+  "description": "Vuepressi test",
+  "main": "index.js",
+  "repository": "jubejuss",
+  "author": "jubejuss",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+}
