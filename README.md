@@ -1,7 +1,7 @@
 # Vuepressi juhend
 [Vuepressi koduleht](https://vuepress.vuejs.org)  
 
-##Installeerimise juhend
+## Installeerimise juhend
 **NB! Kasuta Yarni!**  
 `git clone` 
 `cd loodud folderisse` 
