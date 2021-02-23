@@ -1,7 +1,7 @@
 module.exports = {
     title: 'VuePress',
     description: 'Lihtsalt üks VuePressi katsetus',
-    base: '/vuepress-starter/',
+    base: '/docs/.vuepress/dist',
     themeConfig: {
       logo: 'cafe.png',
       smoothScroll: true,
