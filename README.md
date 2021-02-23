@@ -66,3 +66,12 @@ Vuepress soovitab kasutada Yarni.
         # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
         cd -
+
+### Custom CSS
+9. Klasside lisamiseks tuleb lisada YAML frontmatter sobivasse faili. Frontmatter on lehe-spetsiifilinbe metadata faili alguses. nt Esilehe Hero muutmiseks peab lisama README.md-sse:
+        
+        ---
+        pageClass: homepage
+        ---
+Seejärel on tarvis luua stiilifailid: `.vuepress/styles/index.styl`. Aga selle päisesse lisamisega esines mingeid tõrkeid, lüpuks, lisades ta kõige esimeseks, sain käima. Võibolla juhus.  
+Igatahes, kui asi õnnestub, saab stiilida asja.

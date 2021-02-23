@@ -1,4 +1,5 @@
 ---
+pageClass: homepage
 home: true
 heroImage: juss.jpg
 actionText: Hakkame aga pihta →
@@ -21,3 +22,7 @@ Siin need on
 ## Lisalingid, kust asja edasi harutama hakata:
 - Portfolio: [https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/](https://blog.logrocket.com/how-create-portfolio-blog-using-vuepress-markdown/)
 - VuePress + Forestry + Netlify: [https://vuepress-portfolio.netlify.app/](https://vuepress-portfolio.netlify.app/)
+- [https://dev.to/hyper_yolo/part-2-write-and-apply-a-custom-vuepress-theme-4n3a](https://dev.to/hyper_yolo/part-2-write-and-apply-a-custom-vuepress-theme-4n3a)
+## Vuepressi ingid
+- [https://vuepress.vuejs.org/](https://vuepress.vuejs.org/)
+- [https://vuepressbook.com/](https://vuepressbook.com/)
