@@ -8,4 +8,5 @@
 `yarn install`  
 
 ## Käesoleva materjali tegemise logi
-- Vuepressi install https://vuepress.vuejs.org/guide/getting-started.html
+1. Vuepressi install https://vuepress.vuejs.org/guide/getting-started.html paneb püsti lihtsa skeleti.
+
