@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'VuePress',
+    description: 'Lihtsalt üks VuePressi katsetus',
     themeConfig: {
       logo: 'cafe.png',
       smoothScroll: true,

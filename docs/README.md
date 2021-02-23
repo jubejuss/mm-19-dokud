@@ -1,19 +1,19 @@
 ---
 home: true
 heroImage: juss.jpg
-actionText: Get Started →
-actionLink: /guide/
+actionText: Hakkame aga pihta →
+actionLink: /juhend/
 features:
-  - title: Simplicity First
+  - title: Lihtsus ennekõike
 
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+    details: Minimaalne setup Markdown'is kirjutatud sisuga.
   - title: Vue-Powered
 
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+    details: Serveerimise eest kannab hoolt Vue ja Webpack. Võimalus arendada oma teemasid.
   - title: Performant
 
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: Copyright © 2019 - Peter Mbanugo
+    details: Tü*a seda teab, mida siin öelda tahetakse. Aga igatahes genereerib staatilised HTML-id.
+footer: Copyright © 2019 - Peter Mbanugo, aga ma ise ka siin juba olen palju kirjutanud.
 ---
-# Hello VuePress
-## teine
+# Privetik
+## teine pealkiri kah
