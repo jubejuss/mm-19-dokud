@@ -16,4 +16,10 @@
         themeConfig: {
             logo: 'cafe.png',
         },
-5. Lisasin menüüse lingid, ning tekitasin uue lehe. Uue lehe tegemiseks vaja lihtsalt docs foldrisse vastav md fail teha. https://vuepress.vuejs.org/theme/default-theme-config.html#navbar-links
+5. Lisasin menüüse lingid, ning tekitasin uue lehe. Uue lehe tegemiseks vaja lihtsalt docs foldrisse vastav md fail teha. https://vuepress.vuejs.org/theme/default-theme-config.html#navbar-links  
+        
+        nav: [
+            { text: 'Kodu', link: '/' },
+            { text: 'Juhend', link: '/juhend/' },
+            { text: 'Git', link: 'https://github.com/jubejuss/vuepress-starter' }
+          ],
