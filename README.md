@@ -3,8 +3,8 @@
 
 ## Installeerimise juhend
 **NB! Kasuta Yarni!**  
-`git clone` 
-`cd loodud folderisse` 
-`yarn install` 
+`git clone`  
+`cd loodud folderisse`  
+`yarn install`  
 
 ## Käesoleva materjali tegemise logi
