@@ -10,3 +10,4 @@
 ## Käesoleva materjali tegemise logi
 1. Vuepressi install https://vuepress.vuejs.org/guide/getting-started.html paneb püsti lihtsa skeleti.
 2.  Vuepressi `docs/.vuepress/config.js` faili loomine
+2. Lisatud Vuepressi README'sse päiseosad – Hero ha features
