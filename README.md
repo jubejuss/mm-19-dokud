@@ -12,3 +12,7 @@
 2.  Vuepressi `docs/.vuepress/config.js` faili loomine
 3. Lisatud Vuepressi README YAML'i päiseosad – Hero ja features: https://vuepress.vuejs.org/theme/default-theme-config.html
 4. Lisasin pildi menüüribale. seda tüüpi pildid lähevad .vuepress/public folderisse, kust süsteem need konverdib assetite kataloogi. Mingit rada ise näidata ei tohi.
+
+        themeConfig: {
+            logo: 'cafe.png',
+        },
