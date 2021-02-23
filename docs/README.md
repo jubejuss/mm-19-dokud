@@ -16,4 +16,5 @@ features:
 footer: Copyright © 2019 - Peter Mbanugo, aga ma ise ka siin juba olen palju kirjutanud.
 ---
 # Privetik
-## teine pealkiri kah
+## Siia, ma luban, kirjutan veel kolm sõna
+Siin need on

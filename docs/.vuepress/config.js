@@ -1,6 +1,6 @@
 module.exports = {
     title: 'VuePress',
-    description: 'Lihtsalt üks VuePressi katsetus',
+    description: 'Vuepressi test õppeeesmärgil',
     base: '/vuepress-starter/',
     themeConfig: {
       logo: 'cafe.png',
