@@ -23,3 +23,5 @@
             { text: 'Juhend', link: '/juhend/' },
             { text: 'Git', link: 'https://github.com/jubejuss/vuepress-starter' }
           ],
+6. PÄRIS NII LIHTNE SEE SIISKI POLE!!!  Eraldi lehed võiks hoida eraldi folderites. README.md on nagu HTML-is index, ehj, et see, mida vikimisi loetakse.
+7. Sidebar – selleks tuleks teha folder, mille sisu seal kuvatakse. Antud juhul `juhend`. Selle sisse tehakse omakorda failid, mis tuleb config.js-is kirjutada sidebar'i alla. Antud juhul `README.md` ja `hakkame-pihta.md`. Nende sees olevad pealkirjad ehk H-d korjab Vuepress ise kokku ja paneb küljeribale.
