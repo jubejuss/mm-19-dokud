@@ -65,3 +65,6 @@ Vuepress soovitab kasutada Yarni.
         ---
 Seejärel on tarvis luua stiilifailid: `.vuepress/styles/index.styl`. Aga selle päisesse lisamisega esines mingeid tõrkeid, lüpuks, lisades ta kõige esimeseks, sain käima. Võibolla juhus.  
 Igatahes, kui asi õnnestub, saab stiilida asja.
+
+## Custom layout
+10. Et muuta kujundust/layouti, peab looma .vuepress kataloogi theme kataloogi ja sinna sisse panema `*.vue` templiidid. Kui mõnda neist kasutada, peab vastava lehe frontmaterisse kirjutama `layout: layoutinimi`
