@@ -59,6 +59,8 @@ Vuepressi lehel on antud juhis, mis väga hästi ei tööta. Otsisin Githubi leh
         # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
         cd -
+Lisasin `gh-pages`-i ka `.gitignoresse, et selle sisu tavalise gitisynkiga üles ei lükataks.
+
 ## Custom CSS
 9. Klasside lisamiseks tuleb lisada YAML frontmatter sobivasse faili. Frontmatter on lehe-spetsiifilinbe metadata faili alguses. nt Esilehe Hero muutmiseks peab lisama README.md-sse:
         
