@@ -33,8 +33,9 @@ Vuepress soovitab kasutada Yarni.
 6. **PÄRIS NII LIHTNE SEE SIISKI POLE!!!**  Eraldi lehed võiks hoida eraldi folderites. README.md on nagu HTML-is index, ehk, et see, mida vikimisi loetakse.
 ### Sidebar
 7. Sidebar – selleks tuleks teha folder, mille sisu seal kuvatakse. Antud juhul `juhend`. Selle sisse tehakse omakorda failid, mis tuleb config.js-is kirjutada sidebar'i alla. Antud juhul `README.md` ja `hakkame-pihta.md`. Nende sees olevad pealkirjad ehk H-d korjab Vuepress ise kokku ja paneb küljeribale.
-### Deployment
+## Deployment
 8. Tarvis on määrata config.js failis korrektne "base". Antud näite puhul on selleks Github'i aadressi lõpp `/vuepress-starter/` (vaata üles aadressiribale). Seega config.js'i `base: '/vuepress-starter/'`. Seejärel on vaja kirjutada `deploy.sh` fail, milles on kirjas kõik käsud, et saata valmis kompileeritud staatilised failid githubi.  [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)  
+Vuepressi lehel on antud juhis, mis väga hästi ei tööta. Otsisin Githubi lehelt välja, mis folderis ja kuidas peaks githubi leht olema ettevalmistatud ja määrasin `config.js`failis, et tehtagu juurkataloogi valmis leht, ehk selliselt: `dest: 'gh-pages'`. See ütleb, et destination on `gh-pages`.
         
         #!/usr/bin/env sh
 
@@ -45,7 +46,8 @@ Vuepress soovitab kasutada Yarni.
         yarn run docs:build
 
         # liigub staatiliste failide folderisse
-        cd docs/.vuepress/dist
+        # cd docs/.vuepress/dist (see oli Vuepresi juhendis)
+        cd gh-pages
 
         # Siin saaks oma domeeni alla saata
         # echo 'www.example.com' > CNAME
@@ -66,6 +68,8 @@ Vuepress soovitab kasutada Yarni.
         # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
         cd -
+Lisasin `gh-pages`-i ka `.gitignoresse`, et selle sisu tavalise gitisynkiga üles ei lükataks.  
+Käsklus seele sh faili käivitamiseks on: `sh 'deploy.sh'` ehk siis sh ja rada failini. Muudatus võtab githubis aega ca minuti.
 
 ### Custom CSS
 9. Klasside lisamiseks tuleb lisada YAML frontmatter sobivasse faili. Frontmatter on lehe-spetsiifilinbe metadata faili alguses. nt Esilehe Hero muutmiseks peab lisama README.md-sse:

@@ -28,4 +28,7 @@ Siin need on
 - [https://vuepressbook.com/](https://vuepressbook.com/)
 
 
-Nüüd jälle kirjutasin
+22:08 lisatud kommentaar, et vaadata, kaua värskendus aega võtab
+22:10
+22:11
+22:12
