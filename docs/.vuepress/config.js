@@ -2,6 +2,7 @@ module.exports = {
     title: 'VuePress',
     description: 'Vuepressi test õppeeesmärgil',
     base: '/vuepress-starter/',
+    dest: 'gh-pages',
     themeConfig: {
       logo: 'cafe.png',
       smoothScroll: true,

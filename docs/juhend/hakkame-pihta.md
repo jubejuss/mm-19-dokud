@@ -26,6 +26,7 @@ Vuepress soovitab kasutada Yarni.
 7. Sidebar – selleks tuleks teha folder, mille sisu seal kuvatakse. Antud juhul `juhend`. Selle sisse tehakse omakorda failid, mis tuleb config.js-is kirjutada sidebar'i alla. Antud juhul `README.md` ja `hakkame-pihta.md`. Nende sees olevad pealkirjad ehk H-d korjab Vuepress ise kokku ja paneb küljeribale.
 ## Deployment
 8. Tarvis on määrata config.js failis korrektne "base". Antud näite puhul on selleks Github'i aadressi lõpp `/vuepress-starter/` (vaata üles aadressiribale). Seega config.js'i `base: '/vuepress-starter/'`. Seejärel on vaja kirjutada `deploy.sh` fail, milles on kirjas kõik käsud, et saata valmis kompileeritud staatilised failid githubi.  [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)  
+Vuepressi lehel on antud juhis, mis väga hästi ei tööta. Otsisin Githubi lehelt välja, mis folderis ja kuidas peaks githubi leht olema ettevalmistatud ja määrasin `config.js`failis, et tehtagu juurkataloogi valmis leht, ehk selliselt: `dest: 'gh-pages'`. See ütleb, et destination on `gh-pages`.
         
         #!/usr/bin/env sh
 
@@ -36,7 +37,8 @@ Vuepress soovitab kasutada Yarni.
         yarn run docs:build
 
         # liigub staatiliste failide folderisse
-        cd docs/.vuepress/dist
+        # cd docs/.vuepress/dist (see oli Vuepresi juhendis)
+        cd gh-pages
 
         # Siin saaks oma domeeni alla saata
         # echo 'www.example.com' > CNAME
