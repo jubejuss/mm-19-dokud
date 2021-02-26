@@ -4,7 +4,7 @@ module.exports = {
     base: '/vuepress-starter/',
     dest: 'gh-pages',
     themeConfig: {
-      logo: 'cafe.png',
+      logo: 'logo.png',
       smoothScroll: true,
       nav: [
         { text: 'Kodu', link: '/' },

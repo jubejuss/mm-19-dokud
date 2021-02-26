@@ -1,7 +1,7 @@
 ---
 pageClass: homepage
 home: true
-heroImage: juss.jpg
+heroImage: vuepress.jpg
 actionText: Hakkame aga pihta →
 actionLink: /vpjuhend/
 features:
