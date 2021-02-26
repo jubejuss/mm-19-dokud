@@ -19,9 +19,7 @@ footer: Copyright © 2019 - Peter Mbanugo, aga ma ise ka siin juba olen palju ki
 
 # Privetik
 
-## Siia, ma luban, kirjutan veel kolm sõna
-
-Siin need on
+## Tegelt näikse, et korjan siia ka Nuxti ja võibolla ka Gridsome testid ja katsetused
 
 ## Lisalingid, kust asja edasi harutama hakata:
 

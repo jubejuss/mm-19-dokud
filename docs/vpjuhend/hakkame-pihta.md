@@ -2,12 +2,16 @@
 
 ## Vuepressi install
 
-1. [https://vuepress.vuejs.org/guide/getting-started.html](https://vuepress.vuejs.org/guide/getting-started.html) panin püsti lihtsa skeleti.  
-   Vuepress soovitab kasutada Yarni.
+1. [https://vuepress.vuejs.org/guide/getting-started.html](https://vuepress.vuejs.org/guide/getting-started.html) vuepressi install. Vuepress soovitab kasutada Yarni: `yarn create vuepress-site [loodava saidi nimi, ei ole kohustuslik]`
 
 ## Konfiguratsioonifaili tegemine
 
 2.  Vuepressi `docs/.vuepress/config.js` faili loomine.
+
+        module.exports = {
+        title: 'Hello VuePress',
+        description: 'Just playing around'
+        }
 
 ## Esilehele YAML päis ja muud osad
 
@@ -15,10 +19,10 @@
 
 ## Üldiste piltide lisamine
 
-4.  Lisasin pildi menüüribale `config.js`. seda tüüpi pildid lähevad .vuepress/public folderisse, kust süsteem need konverdib assetite kataloogi. Mingit rada ise näidata ei tohi. Määramine käib `themeConfig:` kirjega.
+4.  Lisasin pildi menüüribale `config.js`. seda tüüpi pildid lähevad .vuepress/public folderisse, kust süsteem need konverdib assetite kataloogi. Mingit rada ise näidata ei tohi. Määramine käib `themeConfig:` kirjega. Kaldkriips peab kindlasti olema.
 
         themeConfig: {
-            logo: 'cafe.png',
+            logo: '/logo.png',
         },
 
 ## Peamenüü ja lingid
@@ -89,9 +93,7 @@
 ## Custom CSS
 
 9. Klasside lisamiseks tuleb lisada YAML frontmatter sobivasse faili. Frontmatter on lehe-spetsiifilinbe metadata faili alguses. nt Esilehe Hero muutmiseks peab lisama README.md-sse:
-   ***
-   ## pageClass: homepage
-   Seejärel on tarvis luua stiilifailid: `.vuepress/styles/index.styl`. Aga selle päisesse lisamisega esines mingeid tõrkeid, lüpuks, lisades ta kõige esimeseks, sain käima. Võibolla juhus.  
+   `pageClass: homepage` Seejärel on tarvis luua stiilifailid: `.vuepress/styles/index.styl`. Aga selle päisesse lisamisega esines mingeid tõrkeid, lõpuks, lisades ta kõige esimeseks, sain käima. Võibolla juhus.  
    Igatahes, kui asi õnnestub, saab stiilida asja.
 
 ## Custom layout
