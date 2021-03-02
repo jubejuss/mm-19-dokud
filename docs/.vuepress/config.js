@@ -17,7 +17,12 @@ module.exports = {
           "",
           "hakkame-pihta"
         ],
-        "/nuxtjuhend/": "auto", /* automaatselt genereeritavad pealkirjad README.md failist */
+        "/nuxtjuhend/": [
+          "",
+          "nuxt"
+        // "/nuxtjuhend/": "auto", /* automaatselt genereeritavad pealkirjad README.md failist */
+        // "/nuxtjuhend/nuxt.md": "auto",
+        ]
       }
     }
   }
